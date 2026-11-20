@@ -1,5 +1,8 @@
-name: Shadow AI scan
-description: Find public AI service hostname references in local code and configuration.
+name: Presencis Shadow AI Scan
+description: Find public AI service hostname references in local code and configuration and emit an AI-BOM.
+branding:
+  icon: shield
+  color: blue
 inputs:
   target:
     description: Directory inside the checked-out repository.
