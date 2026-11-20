@@ -1,0 +1,26 @@
+name: Test
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: unshare -c -p -f --mount-proc npm test
+      - run: git diff --exit-code -- dist
+      - uses: ./
+        id: scan
+        with:
+          target: test
+      - run: test -s "$AI_BOM_PATH"
+        env:
+          AI_BOM_PATH: ${{ steps.scan.outputs.ai-bom-path }}

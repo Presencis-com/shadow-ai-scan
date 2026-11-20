@@ -1,0 +1,488 @@
+[
+  {
+    "providerId": "openai-api",
+    "providerName": "OpenAI",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": true,
+    "matchedPattern": "api.openai.com",
+    "referenceUrl": "https://platform.openai.com/docs"
+  },
+  {
+    "providerId": "anthropic-api",
+    "providerName": "Anthropic",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.anthropic.com",
+    "referenceUrl": "https://docs.anthropic.com"
+  },
+  {
+    "providerId": "google-gemini-api",
+    "providerName": "Google Gemini API",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "generativelanguage.googleapis.com",
+    "referenceUrl": "https://ai.google.dev/gemini-api/docs"
+  },
+  {
+    "providerId": "google-vertex-ai",
+    "providerName": "Google Vertex AI",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": true,
+    "matchedPattern": "aiplatform.googleapis.com",
+    "referenceUrl": "https://cloud.google.com/vertex-ai/docs"
+  },
+  {
+    "providerId": "azure-openai",
+    "providerName": "Azure OpenAI",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": true,
+    "matchedPattern": "openai.azure.com",
+    "referenceUrl": "https://learn.microsoft.com/azure/ai-services/openai/"
+  },
+  {
+    "providerId": "aws-bedrock",
+    "providerName": "AWS Bedrock",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": true,
+    "matchedPattern": "bedrock-runtime.amazonaws.com",
+    "referenceUrl": "https://docs.aws.amazon.com/bedrock/"
+  },
+  {
+    "providerId": "mistral-api",
+    "providerName": "Mistral AI",
+    "category": "commercial-api",
+    "riskTier": "standard",
+    "euDataResidencyOption": true,
+    "matchedPattern": "api.mistral.ai",
+    "referenceUrl": "https://docs.mistral.ai"
+  },
+  {
+    "providerId": "cohere-api",
+    "providerName": "Cohere",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.cohere.com",
+    "referenceUrl": "https://docs.cohere.com"
+  },
+  {
+    "providerId": "groq-api",
+    "providerName": "Groq",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.groq.com",
+    "referenceUrl": "https://console.groq.com/docs"
+  },
+  {
+    "providerId": "together-api",
+    "providerName": "Together AI",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.together.xyz",
+    "referenceUrl": "https://docs.together.ai"
+  },
+  {
+    "providerId": "fireworks-api",
+    "providerName": "Fireworks AI",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.fireworks.ai",
+    "referenceUrl": "https://docs.fireworks.ai"
+  },
+  {
+    "providerId": "perplexity-api",
+    "providerName": "Perplexity",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.perplexity.ai",
+    "referenceUrl": "https://docs.perplexity.ai"
+  },
+  {
+    "providerId": "huggingface-router",
+    "providerName": "Hugging Face Inference",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "router.huggingface.co",
+    "referenceUrl": "https://huggingface.co/docs/api-inference"
+  },
+  {
+    "providerId": "huggingface-inference-legacy",
+    "providerName": "Hugging Face Inference (legacy)",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api-inference.huggingface.co",
+    "referenceUrl": "https://huggingface.co/docs/api-inference"
+  },
+  {
+    "providerId": "huggingface-hub",
+    "providerName": "Hugging Face Hub",
+    "category": "model-hub",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "huggingface.co",
+    "referenceUrl": "https://huggingface.co/docs"
+  },
+  {
+    "providerId": "replicate-api",
+    "providerName": "Replicate",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.replicate.com",
+    "referenceUrl": "https://replicate.com/docs"
+  },
+  {
+    "providerId": "xai-api",
+    "providerName": "xAI",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.x.ai",
+    "referenceUrl": "https://docs.x.ai"
+  },
+  {
+    "providerId": "deepseek-api",
+    "providerName": "DeepSeek",
+    "category": "commercial-api",
+    "riskTier": "high",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.deepseek.com",
+    "referenceUrl": "https://api-docs.deepseek.com"
+  },
+  {
+    "providerId": "aleph-alpha-api",
+    "providerName": "Aleph Alpha",
+    "category": "commercial-api",
+    "riskTier": "standard",
+    "euDataResidencyOption": true,
+    "matchedPattern": "api.aleph-alpha.com",
+    "referenceUrl": "https://docs.aleph-alpha.com"
+  },
+  {
+    "providerId": "github-copilot",
+    "providerName": "GitHub Copilot",
+    "category": "coding-copilot",
+    "riskTier": "high",
+    "euDataResidencyOption": true,
+    "matchedPattern": "api.githubcopilot.com",
+    "referenceUrl": "https://docs.github.com/copilot"
+  },
+  {
+    "providerId": "github-copilot-proxy",
+    "providerName": "GitHub Copilot proxy",
+    "category": "coding-copilot",
+    "riskTier": "high",
+    "euDataResidencyOption": true,
+    "matchedPattern": "copilot-proxy.githubusercontent.com",
+    "referenceUrl": "https://docs.github.com/copilot"
+  },
+  {
+    "providerId": "cursor-api",
+    "providerName": "Cursor",
+    "category": "coding-copilot",
+    "riskTier": "high",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api2.cursor.sh",
+    "referenceUrl": "https://docs.cursor.com"
+  },
+  {
+    "providerId": "windsurf-codeium",
+    "providerName": "Windsurf / Codeium",
+    "category": "coding-copilot",
+    "riskTier": "high",
+    "euDataResidencyOption": false,
+    "matchedPattern": "server.codeium.com",
+    "referenceUrl": "https://docs.windsurf.com"
+  },
+  {
+    "providerId": "tabnine-api",
+    "providerName": "Tabnine",
+    "category": "coding-copilot",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.tabnine.com",
+    "referenceUrl": "https://docs.tabnine.com"
+  },
+  {
+    "providerId": "elevenlabs-api",
+    "providerName": "ElevenLabs",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.elevenlabs.io",
+    "referenceUrl": "https://elevenlabs.io/docs"
+  },
+  {
+    "providerId": "deepgram-api",
+    "providerName": "Deepgram",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.deepgram.com",
+    "referenceUrl": "https://developers.deepgram.com"
+  },
+  {
+    "providerId": "openrouter",
+    "providerName": "OpenRouter",
+    "category": "inference-router",
+    "riskTier": "high",
+    "euDataResidencyOption": false,
+    "matchedPattern": "openrouter.ai",
+    "referenceUrl": "https://openrouter.ai/docs"
+  },
+  {
+    "providerId": "ollama-local",
+    "providerName": "Ollama",
+    "category": "local-runtime",
+    "riskTier": "standard",
+    "euDataResidencyOption": false,
+    "matchedPattern": "localhost:11434",
+    "referenceUrl": "https://ollama.com"
+  },
+  {
+    "providerId": "lmstudio-local",
+    "providerName": "LM Studio",
+    "category": "local-runtime",
+    "riskTier": "standard",
+    "euDataResidencyOption": false,
+    "matchedPattern": "localhost:1234",
+    "referenceUrl": "https://lmstudio.ai"
+  },
+  {
+    "providerId": "cerebras-api",
+    "providerName": "Cerebras",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.cerebras.ai",
+    "referenceUrl": "https://inference-docs.cerebras.ai"
+  },
+  {
+    "providerId": "sambanova-api",
+    "providerName": "SambaNova",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.sambanova.ai",
+    "referenceUrl": "https://docs.sambanova.ai"
+  },
+  {
+    "providerId": "nvidia-nim",
+    "providerName": "NVIDIA NIM",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "integrate.api.nvidia.com",
+    "referenceUrl": "https://docs.api.nvidia.com"
+  },
+  {
+    "providerId": "voyage-embed",
+    "providerName": "Voyage AI",
+    "category": "embedding",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.voyageai.com",
+    "referenceUrl": "https://docs.voyageai.com"
+  },
+  {
+    "providerId": "jina-embed",
+    "providerName": "Jina AI",
+    "category": "embedding",
+    "riskTier": "elevated",
+    "euDataResidencyOption": true,
+    "matchedPattern": "api.jina.ai",
+    "referenceUrl": "https://jina.ai"
+  },
+  {
+    "providerId": "stability-api",
+    "providerName": "Stability AI",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.stability.ai",
+    "referenceUrl": "https://platform.stability.ai/docs"
+  },
+  {
+    "providerId": "ai21-api",
+    "providerName": "AI21",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.ai21.com",
+    "referenceUrl": "https://docs.ai21.com"
+  },
+  {
+    "providerId": "writer-api",
+    "providerName": "Writer",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.writer.com",
+    "referenceUrl": "https://dev.writer.com"
+  },
+  {
+    "providerId": "cloudflare-workers-ai",
+    "providerName": "Cloudflare Workers AI",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.cloudflare.com",
+    "referenceUrl": "https://developers.cloudflare.com/workers-ai/"
+  },
+  {
+    "providerId": "databricks-serving",
+    "providerName": "Databricks Model Serving",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": true,
+    "matchedPattern": "cloud.databricks.com",
+    "referenceUrl": "https://docs.databricks.com"
+  },
+  {
+    "providerId": "snowflake-cortex",
+    "providerName": "Snowflake Cortex",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": true,
+    "matchedPattern": "snowflakecomputing.com",
+    "referenceUrl": "https://docs.snowflake.com"
+  },
+  {
+    "providerId": "ibm-watsonx",
+    "providerName": "IBM watsonx.ai",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": true,
+    "matchedPattern": "ml.cloud.ibm.com",
+    "referenceUrl": "https://www.ibm.com/products/watsonx-ai"
+  },
+  {
+    "providerId": "amazon-q-developer",
+    "providerName": "Amazon Q Developer",
+    "category": "coding-copilot",
+    "riskTier": "high",
+    "euDataResidencyOption": true,
+    "matchedPattern": "codewhisperer.amazonaws.com",
+    "referenceUrl": "https://docs.aws.amazon.com/amazonq/"
+  },
+  {
+    "providerId": "sourcegraph-cody",
+    "providerName": "Sourcegraph Cody",
+    "category": "coding-copilot",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "sourcegraph.com",
+    "referenceUrl": "https://sourcegraph.com/docs/cody"
+  },
+  {
+    "providerId": "assemblyai-api",
+    "providerName": "AssemblyAI",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.assemblyai.com",
+    "referenceUrl": "https://www.assemblyai.com/docs"
+  },
+  {
+    "providerId": "moonshot-api",
+    "providerName": "Moonshot",
+    "category": "commercial-api",
+    "riskTier": "high",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.moonshot.cn",
+    "referenceUrl": "https://www.moonshot.cn"
+  },
+  {
+    "providerId": "zhipu-api",
+    "providerName": "Zhipu",
+    "category": "commercial-api",
+    "riskTier": "high",
+    "euDataResidencyOption": false,
+    "matchedPattern": "open.bigmodel.cn",
+    "referenceUrl": "https://open.bigmodel.cn"
+  },
+  {
+    "providerId": "minimax-api",
+    "providerName": "MiniMax",
+    "category": "commercial-api",
+    "riskTier": "high",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.minimax.chat",
+    "referenceUrl": "https://www.minimax.io"
+  },
+  {
+    "providerId": "baidu-qianfan",
+    "providerName": "Baidu Qianfan",
+    "category": "commercial-api",
+    "riskTier": "high",
+    "euDataResidencyOption": false,
+    "matchedPattern": "aip.baidubce.com",
+    "referenceUrl": "https://cloud.baidu.com"
+  },
+  {
+    "providerId": "anyscale-endpoints",
+    "providerName": "Anyscale Endpoints",
+    "category": "inference-router",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.endpoints.anyscale.com",
+    "referenceUrl": "https://docs.anyscale.com"
+  },
+  {
+    "providerId": "baseten-api",
+    "providerName": "Baseten",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.baseten.co",
+    "referenceUrl": "https://docs.baseten.co"
+  },
+  {
+    "providerId": "modal-api",
+    "providerName": "Modal",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.modal.com",
+    "referenceUrl": "https://modal.com/docs"
+  },
+  {
+    "providerId": "bfl-api",
+    "providerName": "Black Forest Labs",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": true,
+    "matchedPattern": "api.bfl.ai",
+    "referenceUrl": "https://docs.bfl.ai"
+  },
+  {
+    "providerId": "fal-api",
+    "providerName": "fal",
+    "category": "commercial-api",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "fal.run",
+    "referenceUrl": "https://fal.ai/docs"
+  },
+  {
+    "providerId": "langsmith",
+    "providerName": "LangSmith",
+    "category": "agent-endpoint",
+    "riskTier": "elevated",
+    "euDataResidencyOption": false,
+    "matchedPattern": "api.smith.langchain.com",
+    "referenceUrl": "https://docs.smith.langchain.com"
+  }
+]

@@ -1,0 +1,30 @@
+name: Shadow AI scan
+description: Find public AI service hostname references in local code and configuration.
+inputs:
+  target:
+    description: Directory inside the checked-out repository.
+    default: '.'
+  fail-on:
+    description: A finding threshold of high, elevated, any or none.
+    default: 'none'
+outputs:
+  findings-count:
+    description: Total number of findings.
+    value: ${{ steps.scan.outputs.findings-count }}
+  high-risk-count:
+    description: Number of high-risk findings.
+    value: ${{ steps.scan.outputs.high-risk-count }}
+  ai-bom-path:
+    description: Path to the AI-BOM JSON on the runner.
+    value: ${{ steps.scan.outputs.ai-bom-path }}
+runs:
+  using: composite
+  steps:
+    - id: scan
+      shell: bash
+      env:
+        SCAN_TARGET: ${{ inputs.target }}
+        SCAN_FAIL_ON: ${{ inputs.fail-on }}
+      run: |
+        node -e 'if (Number(process.versions.node.split(".")[0]) < 22) process.exit(2)'
+        node "$GITHUB_ACTION_PATH/dist/action.js"
